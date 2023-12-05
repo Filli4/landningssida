@@ -1,0 +1,265 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: 0;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+
+
+.nav-bar{
+   display: flex;
+   background-color: bisque;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.meny{
+   display: flex;
+   margin: 10px;
+}
+
+.meny li{
+   margin: 10px;
+
+}
+
+.nav-button {
+   background-color: rgb(69, 52, 85);
+   margin: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: aliceblue;
+   font-size: large;
+   border-radius: 40px;
+}
+.meny li a{
+   background-color: rgb(69, 52, 85);
+   font-size: large;
+   color: aliceblue;
+   border-radius: 2px;
+   padding: 5px;
+   
+}
+
+.nav{
+   display: flex;
+   background-color: rgb(124, 76, 76);
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+
+}
+.logga{
+   display: flex;
+   font-size: xx-large;
+   background-color: aquamarine;
+   padding: 20.9px;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+}
+
+.main-parent{
+   background-color: bisque;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.main-parent h1{ 
+   background-color: aliceblue;
+   margin-top: 20px;
+   border-radius: 20px;
+   padding-left: 50px;
+   padding-bottom: 10px;
+   
+}
+.main-parent p{
+   background-color: aliceblue;
+   border-bottom-left-radius:10px;
+   border-bottom-right-radius: 10px;
+   padding: 10px;
+}
+
+
+.main-button{
+   background-color: rgb(69, 52, 85);
+   margin: 10px;
+   padding: 15px;
+   color: aliceblue;
+   font-size: xx-large;
+   border-radius: 40px;
+}
+
+.info{
+   display: flex;
+   height: 350px;
+   gap: 2em;
+   border-radius:2px;
+   justify-content: center;
+   align-items: center;
+   background-color:rgba(227, 232, 206, 0.568);
+   border: 2px solid rgba(119, 134, 61, 0.829);
+}
+
+.info h1{
+   text-align: center;
+   padding: 10px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   background-color: aliceblue;
+   font-size: xx-large;
+}
+.info h3{
+   padding-left: 20px;
+   font-size: large;
+   background-color: aliceblue;
+}
+.info p{
+   background-color: aliceblue;
+   padding: 10px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.bild-container{
+   padding: 5px;
+   
+}
+.bild{
+   width: 440px;
+   height: 340px;
+   border-radius: 20px;
+}
+
+.sida-4{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 10px;
+   padding: 30px;
+   background-color: rgb(198, 188, 175);
+
+}
+.studenter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: antiquewhite;
+   border-radius: 20px;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-top: 10px;
+  
+}
+.bild-first{
+   border-radius: 20px;
+   
+}
+.second {
+   width: 225px;
+   height: 225px;
+   border-radius: 20px;
+   padding-bottom: 30px;
+   margin-bottom: 50px;
+   
+}
+.bild-second{
+   border-radius: 10px;
+   
+}
+.bild-third{
+   border-radius: 10px;
+   
+}
+
+
+.main-parent-två{
+   background-color: bisque;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+}
+
+.main-button-två{
+   background-color: rgb(69, 52, 85);
+   margin: 10px;
+   padding: 15px;
+   color: aliceblue;
+   font-size: xx-large;
+   border-radius: 40px;
+}
+
+.main-parent-två h1{ 
+   /*background-color: aliceblue;*/
+   margin-top: 20px;
+   border-radius: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+   
+}
+.main-parent-två p{
+   background-color: aliceblue;
+   border-bottom-left-radius:10px;
+   border-bottom-right-radius: 10px;
+   padding: 10px;
+}
+
+footer{
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+   background-color: beige;
+   width: 100%;
+   padding-top: 30px;
+   
+}
+
+.foter-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 20px;
+}
+
+.foter-container a{
+   margin: 3px;
+   color: black;
+}
+
+.logga-right{
+   background-color: aliceblue;
+   padding: 50px;
+   border-radius: 80px;
+}
+
+.middle-info h4{
+   margin: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 700px){
+   .meny li a { 
+   
+         font-size: 8px;
+         display: none;
+        
+      }
+   .nav-button p{
+      font-size: 8px ;
+
+   }
+   .nav-button{
+      width: 20px;
+      height: 50px
+   }
+   }
